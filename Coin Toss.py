@@ -1,4 +1,5 @@
 import CoinClass as c
+#CoinClass is name of file CoinClass.py - need to import file to use code
 
 
 # The main function.
