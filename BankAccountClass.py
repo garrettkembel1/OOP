@@ -1,6 +1,6 @@
 # The BankAccount class simulates a bank account.
 
-class Car:
+class BankAccount:
     
 
 # The __init__ method accepts an argument for
@@ -31,6 +31,9 @@ class Car:
 
     def get_balance(self):
         return self.__balance
+    
+    def __str__(self):
+        return 'The balance is $' + format(self.__balance,',.2f')
 
 
 

@@ -11,7 +11,8 @@ import CarClass as c
 def main():
 
        # Create an object from the Coin class.
-    my_car = c.Car(2011,'Toyota 4Runner',45)
+    my_car = c.Car(2011,'Toyota 4Runner',0)
+    
   # this creates an instance called 'my_coin' of the class 'Coin()'
     print('\n')
     print(f'The vehicle is a {my_car.get_year_model()} {my_car.get_make()}, and a has a beginning speed of {my_car.get_speed()}.')
