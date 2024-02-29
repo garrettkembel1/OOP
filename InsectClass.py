@@ -7,10 +7,12 @@ class Insect:
     # The _ _init_ _ method initializes the
     # sideup data attribute with 'Heads'.
 
-    def __init__(self): #(self) is requirment for every single instance
-        self.wings = 2
-        self.legs = 4
+    def __init__(self,w,l,n): #(self) is requirment for every single instance
+        self.wings = w
+        self.legs = l
         self.flight = 0
+        self.name = n
+
 
     # The toss method generates a random number
     # in the range of 0 through 1. If the number
@@ -23,8 +25,11 @@ class Insect:
     # The get_sideup method returns the value
     # referenced by sideup.
 
-    def get_sideup(self):
+    def get_flight(self):
             return self.flight
+    
+    def get_name(self):
+            return self.name
     # The get_sideup method returns the value
     # referenced by sideup.
 

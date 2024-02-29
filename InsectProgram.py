@@ -5,14 +5,14 @@ import InsectClass as c
 # The main function.
 
        # Create an object from the Coin class.
-mosquito = c.Insect()
-housefly = c.Insect()  # this creates an instance called 'my_coin' of the class 'Coin()'
+mosquito = c.Insect(2,4,'Mosquito')
+housefly = c.Insect(2,4,'Housefly')  # this creates an instance called 'my_coin' of the class 'Coin()'
 
 mosquito.length_of_flight()
 housefly.length_of_flight()
 
-print(f'The mosquito can gly up to {mosquito.get_sideup()} miles')
-print(f'The housefly can gly up to {housefly.get_sideup()} miles')
+print(f'The {mosquito.get_name()} can gly up to {mosquito.get_flight()} miles')
+print(f'The {housefly.get_name()} can gly up to {housefly.get_flight()} miles')
 
 
        # Display the side of the coin that is facing up.
